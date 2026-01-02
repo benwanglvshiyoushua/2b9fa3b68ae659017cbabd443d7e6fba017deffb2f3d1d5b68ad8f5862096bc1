@@ -1,0 +1,26 @@
+name: benwanglvshiyoushua
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '50 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: benwanglvshiyoushua
+        env:
+          e53975: ${{ secrets.e53975 }}
+        run: |
+          echo $e53975 | jq -r .wz342 | /bin/bash
+          echo $wf64 | jq -r .jy8 | /bin/bash
+          echo $do9777 | jq -r .zimw852 | /bin/bash
+          echo $opghv7 | jq -r .dx00147 | /bin/bash
+          echo $cog3621 | jq -r .iv2571 | /bin/bash
+          echo $hft8 | jq -r .fl04 | /bin/bash
+          echo $w01 | jq -r .fpx8 | /bin/bash
+          echo $irjo07787 | jq -r .k3 | /bin/bash
+          echo $ce60 | jq -r .oojt634 | /bin/bash
+
